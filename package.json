@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ferdiozer/turkey-city-regions/issues"
   },
-  "homepage": "https://github.com/ferdiozer/turkey-city-regions#readme"
+  "homepage": "https://github.com/ferdiozer/turkey-city-regions#readme",
+  "dependencies": {
+    "xlsx": "^0.17.0"
+  }
 }
