@@ -1,10 +1,13 @@
 {
   "name": "turkey-city-regions",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Current data of provinces, districts, districts and neighborhoods in Turkey",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node index",
+    "dev1": "nodemon example"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,8 @@
   "homepage": "https://github.com/ferdiozer/turkey-city-regions#readme",
   "dependencies": {
     "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
