@@ -1,0 +1,28 @@
+{
+  "name": "turkey-city-regions",
+  "version": "1.0.0",
+  "description": "Current data of provinces, districts, districts and neighborhoods in Turkey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdiozer/turkey-city-regions.git"
+  },
+  "keywords": [
+    "nodejs",
+    "turkey",
+    "provinces",
+    "districts",
+    "neighborhoods",
+    "data",
+    "json"
+  ],
+  "author": "ferdiozer.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdiozer/turkey-city-regions/issues"
+  },
+  "homepage": "https://github.com/ferdiozer/turkey-city-regions#readme"
+}
