@@ -48,6 +48,22 @@ class MyLib {
         //console.log({ area })
         return area
     }
+
+
+    setInitJson(data) {
+        let obj = {
+            regions: data
+        };
+        const filename = __dirname + "/myjsonfile.json";
+        fs.exists(filename, function (exists) {
+            if (!exists) {
+                let json = JSON.stringify(obj);
+                fs.writeFile(filename, json, (err) => {
+                    console.log(err)
+                });
+            }
+        });
+    }
 }
 
 module.exports = {

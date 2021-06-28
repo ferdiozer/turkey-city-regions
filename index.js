@@ -24,6 +24,10 @@ var formattedData = allData.map(v => {
     }
 })
 
+
+
+new lib.MyLib().setInitJson(formattedData)
+
 module.exports = {
     getAllData: formattedData
 }
