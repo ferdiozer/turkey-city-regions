@@ -1,6 +1,6 @@
 {
   "name": "turkey-city-regions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Current data of provinces, districts, districts and neighborhoods in Turkey",
   "main": "index.js",
   "scripts": {
